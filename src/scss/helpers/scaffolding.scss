@@ -18,17 +18,16 @@
 
 body {
   overflow-x: hidden;
-  background: $selago;
+  background: $white;
   font-family: $montserrat;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 17px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 28px;
   color: $storm-gray;
   min-height: 100vh;
-  @media (max-width: $mobile-bp) {
-    font-size: 13px;
-    line-height: 16px;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 a {
@@ -65,5 +64,6 @@ img {
 
 .container {
   max-width: $container-width;
-  margin: auto 15px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
